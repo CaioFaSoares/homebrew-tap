@@ -5,9 +5,12 @@ class WiredMagic < Formula
   version "0.1.0"
   license "MIT"
 
-  depends_on macos: :sonoma
+  url "https://github.com/CaioFaSoares/wired-magic-tools/releases/download/v0.1.0/wired-magic-v0.1.0-darwin-arm64.tar.gz"
+  sha256 "a521a1aeb5a87ee3cf785f253a04240e123b73a5f11e40c9ff871a9e187bdf62"
+  depends_on :macos
 
   on_macos do
+    depends_on macos: :sonoma
     on_arm do
       url "https://github.com/CaioFaSoares/wired-magic-tools/releases/download/v0.1.0/wired-magic-v0.1.0-darwin-arm64.tar.gz"
       sha256 "a521a1aeb5a87ee3cf785f253a04240e123b73a5f11e40c9ff871a9e187bdf62"
