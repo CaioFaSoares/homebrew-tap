@@ -2,22 +2,22 @@
 class WiredMagic < Formula
   desc "Self-hosted VPN mesh"
   homepage "https://github.com/CaioFaSoares/wired-magic-tools"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
-  url "https://github.com/CaioFaSoares/wired-magic-tools/releases/download/v0.1.5/wired-magic-v0.1.5-darwin-arm64.tar.gz"
-  sha256 "47c1af8bb792a0b18af24e8cc980f35381d6902b12a2d10762de7e930befe58a"
+  url "https://github.com/CaioFaSoares/wired-magic-tools/releases/download/v0.1.6/wired-magic-v0.1.6-darwin-arm64.tar.gz"
+  sha256 "fa2d537f762143461f345a41c4cd2d2223dfd0f61d3ff87e7a9ef1d14e4ffa43"
   depends_on :macos
 
   on_macos do
     depends_on macos: :sonoma
     on_arm do
-      url "https://github.com/CaioFaSoares/wired-magic-tools/releases/download/v0.1.5/wired-magic-v0.1.5-darwin-arm64.tar.gz"
-      sha256 "47c1af8bb792a0b18af24e8cc980f35381d6902b12a2d10762de7e930befe58a"
+      url "https://github.com/CaioFaSoares/wired-magic-tools/releases/download/v0.1.6/wired-magic-v0.1.6-darwin-arm64.tar.gz"
+      sha256 "fa2d537f762143461f345a41c4cd2d2223dfd0f61d3ff87e7a9ef1d14e4ffa43"
     end
     on_intel do
-      url "https://github.com/CaioFaSoares/wired-magic-tools/releases/download/v0.1.5/wired-magic-v0.1.5-darwin-x86_64.tar.gz"
-      sha256 "3214f3de0cdc76b0ebb8613d431e82ef499a7aaeb21c2d1ff55dbba04d13b3cf"
+      url "https://github.com/CaioFaSoares/wired-magic-tools/releases/download/v0.1.6/wired-magic-v0.1.6-darwin-x86_64.tar.gz"
+      sha256 "59eedc6d31d88bda13d23a5c7c0ff3242bc7c13e3e35db0ff88c7fa9657370e7"
     end
   end
 
